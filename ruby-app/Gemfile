@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+ruby '2.7.0'
+
+source 'https://rubygems.org'
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem 'activerecord', '~> 6.0', require: 'active_record'
+gem 'aws-sdk-sqs', '~> 1.24'
+gem 'logging', '~> 2.2'
+gem 'pg', '~> 1.2'
+gem 'shoryuken', '~> 5.0'
+gem 'zeitwerk', '~> 2.3'
+
+group :development do
+  gem 'pry', '~> 0.13.1'
+  gem 'rubocop', '~> 0.82.0'
+end

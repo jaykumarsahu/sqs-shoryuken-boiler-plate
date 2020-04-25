@@ -1,0 +1,13 @@
+/.bundle
+/.git
+/log/*.log
+.gitignore
+
+.DS_Store
+*.DS_Store
+Dockerfile
+.env
+README.md
+.rubocop.yml
+.env.example
+.dockerignore

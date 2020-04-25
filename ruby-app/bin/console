@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'pry'
+require './config/boot'
+
+def reload!(print = true)
+  puts 'Reloading ...' if print
+  CODE_LOADER.reload
+  true
+end
+
+Pry.start

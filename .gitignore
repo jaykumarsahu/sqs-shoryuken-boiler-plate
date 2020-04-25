@@ -1,0 +1,3 @@
+ruby-app/.env
+ruby-app/config/database.yml
+ruby-app/log/*.log
