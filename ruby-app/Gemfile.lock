@@ -30,7 +30,7 @@ GEM
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     little-plugger (1.1.4)
     logging (2.2.2)
       little-plugger (~> 1.1)
