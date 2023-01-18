@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'activerecord', '~> 6.0', require: 'active_record'
+gem 'activerecord', '~> 6.1', require: 'active_record'
 gem 'aws-sdk-sqs', '~> 1.24'
 gem 'logging', '~> 2.2'
 gem 'pg', '~> 1.2'

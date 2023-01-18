@@ -1,17 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.0.2.2)
-      activesupport (= 6.0.2.2)
-    activerecord (6.0.2.2)
-      activemodel (= 6.0.2.2)
-      activesupport (= 6.0.2.2)
-    activesupport (6.0.2.2)
+    activemodel (6.1.7.1)
+      activesupport (= 6.1.7.1)
+    activerecord (6.1.7.1)
+      activemodel (= 6.1.7.1)
+      activesupport (= 6.1.7.1)
+    activesupport (6.1.7.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
-      zeitwerk (~> 2.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     ast (2.4.0)
     aws-eventstream (1.1.0)
     aws-partitions (1.303.0)
@@ -26,8 +26,8 @@ GEM
     aws-sigv4 (1.1.2)
       aws-eventstream (~> 1.0, >= 1.0.2)
     coderay (1.1.2)
-    concurrent-ruby (1.1.6)
-    i18n (1.8.2)
+    concurrent-ruby (1.1.10)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
     jmespath (1.4.0)
@@ -36,7 +36,7 @@ GEM
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
     method_source (1.0.0)
-    minitest (5.14.0)
+    minitest (5.17.0)
     multi_json (1.14.1)
     parallel (1.19.1)
     parser (2.7.1.1)
@@ -61,9 +61,8 @@ GEM
       concurrent-ruby
       thor
     thor (1.0.1)
-    thread_safe (0.3.6)
-    tzinfo (1.2.7)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
     zeitwerk (2.3.0)
 
@@ -71,7 +70,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 6.0)
+  activerecord (~> 6.1)
   aws-sdk-sqs (~> 1.24)
   logging (~> 2.2)
   pg (~> 1.2)
